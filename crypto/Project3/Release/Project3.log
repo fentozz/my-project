@@ -1,0 +1,41 @@
+﻿  decrypto.c
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(291): warning C4244: =: преобразование "wchar_t" в "char", возможна потеря данных
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(305): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(320): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(334): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(352): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(379): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(384): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(463): warning C4018: <: несоответствие типов со знаком и без знака
+  encrypto.c
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\encrypto.c(280): warning C4244: =: преобразование "wchar_t" в "char", возможна потеря данных
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\encrypto.c(329): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\encrypto.c(315): warning C4101: ar_f_s: неиспользованная локальная переменная
+  main.cpp
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(291): warning C4244: =: преобразование "wchar_t" в "char", возможна потеря данных
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(305): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(320): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(334): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(352): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(379): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(384): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\decrypto.c(463): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\encrypto.c(280): warning C4244: =: преобразование "wchar_t" в "char", возможна потеря данных
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\encrypto.c(329): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\encrypto.c(315): warning C4101: ar_f_s: неиспользованная локальная переменная
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\main.cpp(41): warning C4244: =: преобразование "wchar_t" в "TCHAR", возможна потеря данных
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\main.cpp(56): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\main.cpp(68): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\main.cpp(119): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\main.cpp(138): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\main.cpp(150): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\main.cpp(162): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\main.cpp(177): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\main.cpp(189): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\fentozz\desktop\c and c++\курсовая_all-ver\курсовая_0-3\project3\main.cpp(201): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода
+  7 of 20 functions (35.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Project3.vcxproj -> C:\Users\fentozz\Desktop\C and C++\курсовая_all-ver\курсовая_0-3\Release\Курсовая.exe
