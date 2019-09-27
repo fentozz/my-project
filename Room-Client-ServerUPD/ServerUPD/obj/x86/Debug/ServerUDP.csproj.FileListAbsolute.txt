@@ -1,0 +1,40 @@
+D:\MonoCode\Client-ServerUPD\ServerUPD\bin\Debug\ServUPD.exe.config
+D:\MonoCode\Client-ServerUPD\ServerUPD\bin\Debug\ServUPD.exe
+D:\MonoCode\Client-ServerUPD\ServerUPD\bin\Debug\ServUPD.pdb
+D:\MonoCode\Client-ServerUPD\ServerUPD\bin\Debug\ClassUDP.dll
+D:\MonoCode\Client-ServerUPD\ServerUPD\bin\Debug\ClassUDP.pdb
+D:\MonoCode\Client-ServerUPD\ServerUPD\obj\x86\Debug\ServerUDP.csprojAssemblyReference.cache
+D:\MonoCode\Client-ServerUPD\ServerUPD\obj\x86\Debug\ServerUDP.csproj.CoreCompileInputs.cache
+D:\MonoCode\Client-ServerUPD\ServerUPD\obj\x86\Debug\ServerUDP.csproj.CopyComplete
+D:\MonoCode\Client-ServerUPD\ServerUPD\obj\x86\Debug\ServUPD.exe
+D:\MonoCode\Client-ServerUPD\ServerUPD\obj\x86\Debug\ServUPD.pdb
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ServerUPD\bin\Debug\ServUPD.exe.config
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ServerUPD\bin\Debug\ServUPD.exe
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ServerUPD\bin\Debug\ServUPD.pdb
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ServerUPD\bin\Debug\ClassUDP.dll
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ServerUPD\bin\Debug\ClassUDP.pdb
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ServerUPD\obj\x86\Debug\ServerUDP.csprojAssemblyReference.cache
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ServerUPD\obj\x86\Debug\ServerUDP.csproj.CoreCompileInputs.cache
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ServerUPD\obj\x86\Debug\ServerUDP.csproj.CopyComplete
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ServerUPD\obj\x86\Debug\ServUPD.exe
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ServerUPD\obj\x86\Debug\ServUPD.pdb
+D:\MonoCode\Room-Client-ServerUPD\ServerUPD\bin\Debug\ServUPD.exe.config
+D:\MonoCode\Room-Client-ServerUPD\ServerUPD\bin\Debug\ServUPD.exe
+D:\MonoCode\Room-Client-ServerUPD\ServerUPD\bin\Debug\ServUPD.pdb
+D:\MonoCode\Room-Client-ServerUPD\ServerUPD\bin\Debug\ClassUDP.dll
+D:\MonoCode\Room-Client-ServerUPD\ServerUPD\bin\Debug\ClassUDP.pdb
+D:\MonoCode\Room-Client-ServerUPD\ServerUPD\obj\x86\Debug\ServerUDP.csproj.CoreCompileInputs.cache
+D:\MonoCode\Room-Client-ServerUPD\ServerUPD\obj\x86\Debug\ServerUDP.csproj.CopyComplete
+D:\MonoCode\Room-Client-ServerUPD\ServerUPD\obj\x86\Debug\ServUPD.exe
+D:\MonoCode\Room-Client-ServerUPD\ServerUPD\obj\x86\Debug\ServUPD.pdb
+D:\MonoCode\Room-Client-ServerUPD\ServerUPD\obj\x86\Debug\ServerUDP.csprojAssemblyReference.cache
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ServerUPD\obj\x86\Debug\ServerUDP.csprojAssemblyReference.cache
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ServerUPD\obj\x86\Debug\ServerUDP.csproj.CoreCompileInputs.cache
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ServerUPD\obj\x86\Debug\ServUPD.exe
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ServerUPD\obj\x86\Debug\ServUPD.pdb
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ServerUPD\bin\Debug\ServUPD.exe.config
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ServerUPD\bin\Debug\ServUPD.exe
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ServerUPD\bin\Debug\ServUPD.pdb
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ServerUPD\bin\Debug\ClassUDP.dll
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ServerUPD\bin\Debug\ClassUDP.pdb
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ServerUPD\obj\x86\Debug\ServerUDP.csproj.CopyComplete

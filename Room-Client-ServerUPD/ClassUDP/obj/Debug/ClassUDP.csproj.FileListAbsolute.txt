@@ -1,0 +1,19 @@
+D:\MonoCode\Client-ServerUPD\ClassUDP\bin\Debug\ClassUDP.dll
+D:\MonoCode\Client-ServerUPD\ClassUDP\bin\Debug\ClassUDP.pdb
+D:\MonoCode\Client-ServerUPD\ClassUDP\obj\Debug\ClassUDP.csproj.CoreCompileInputs.cache
+D:\MonoCode\Client-ServerUPD\ClassUDP\obj\Debug\ClassUDP.dll
+D:\MonoCode\Client-ServerUPD\ClassUDP\obj\Debug\ClassUDP.pdb
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ClassUDP\bin\Debug\ClassUDP.dll
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ClassUDP\bin\Debug\ClassUDP.pdb
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ClassUDP\obj\Debug\ClassUDP.csproj.CoreCompileInputs.cache
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ClassUDP\obj\Debug\ClassUDP.dll
+C:\Users\fentozz\Desktop\новый проект\Client-ServerUPD\ClassUDP\obj\Debug\ClassUDP.pdb
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClassUDP\bin\Debug\ClassUDP.dll
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClassUDP\bin\Debug\ClassUDP.pdb
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClassUDP\bin\Debug\System.ValueTuple.dll
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClassUDP\bin\Debug\System.ValueTuple.xml
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClassUDP\obj\Debug\ClassUDP.csprojAssemblyReference.cache
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClassUDP\obj\Debug\ClassUDP.csproj.CoreCompileInputs.cache
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClassUDP\obj\Debug\ClassUDP.csproj.CopyComplete
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClassUDP\obj\Debug\ClassUDP.dll
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClassUDP\obj\Debug\ClassUDP.pdb

@@ -1,0 +1,7 @@
+D:\MonoCode\ServerUPD\ServerUPD\bin\Debug\ServerUPD.exe.config
+D:\MonoCode\ServerUPD\ServerUPD\bin\Debug\ServerUPD.exe
+D:\MonoCode\ServerUPD\ServerUPD\bin\Debug\ServerUPD.pdb
+D:\MonoCode\ServerUPD\ServerUPD\obj\Debug\ServerUPD.csprojAssemblyReference.cache
+D:\MonoCode\ServerUPD\ServerUPD\obj\Debug\ServerUPD.csproj.CoreCompileInputs.cache
+D:\MonoCode\ServerUPD\ServerUPD\obj\Debug\ServerUPD.exe
+D:\MonoCode\ServerUPD\ServerUPD\obj\Debug\ServerUPD.pdb

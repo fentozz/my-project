@@ -1,0 +1,6 @@
+D:\MonoCode\ServUPD\ServUPD\bin\Debug\ServUPD.exe
+D:\MonoCode\ServUPD\ServUPD\bin\Debug\ServUPD.pdb
+D:\MonoCode\ServUPD\ServUPD\obj\x86\Debug\ServUPD.exe
+D:\MonoCode\ServUPD\ServUPD\obj\x86\Debug\ServUPD.pdb
+D:\MonoCode\ServUPD\ServUPD\obj\x86\Debug\ServUPD.csproj.CoreCompileInputs.cache
+D:\MonoCode\ServUPD\ServUPD\bin\Debug\ServUPD.exe.config

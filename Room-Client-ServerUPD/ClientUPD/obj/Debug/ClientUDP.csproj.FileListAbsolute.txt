@@ -1,0 +1,15 @@
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\bin\Debug\ClientUPD.exe.config
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\bin\Debug\ClientUPD.exe
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\bin\Debug\ClientUPD.pdb
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\bin\Debug\ClassUDP.dll
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\bin\Debug\ClassUDP.pdb
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\obj\Debug\ClientUDP.csprojAssemblyReference.cache
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\obj\Debug\ClientUPD.ConnectHallServer.resources
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\obj\Debug\ClientUPD.InteractRoom.resources
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\obj\Debug\ClientUPD.FormClientInRoom.resources
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\obj\Debug\ClientUPD.Properties.Resources.resources
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\obj\Debug\ClientUDP.csproj.GenerateResource.cache
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\obj\Debug\ClientUDP.csproj.CoreCompileInputs.cache
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\obj\Debug\ClientUDP.csproj.CopyComplete
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\obj\Debug\ClientUPD.exe
+C:\Users\fentozz\Desktop\новый проект\Room-Client-ServerUPD\ClientUPD\obj\Debug\ClientUPD.pdb
