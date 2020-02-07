@@ -89,15 +89,15 @@ void* Console(void* args){
                 sleep(2);
             }
         }
-        else if (strncmp(buff_console_str, "Seq1", 4) == 0) {// 1 сегмент 
+        else if (strncmp(buff_console_str, "Seg1", 4) == 0) {// 1 сегмент 
             if ( Set_segment(SEGMENT_ONE,buff_console_str) !=0)
             printf("Incorrect command\n");
         }
-        else if (strncmp(buff_console_str, "Seq2", 4) == 0) {// 2 сегмент
+        else if (strncmp(buff_console_str, "Seg2", 4) == 0) {// 2 сегмент
             if ( Set_segment(SEGMENT_TWO,buff_console_str) !=0)
             printf("Incorrect command\n");
         }
-        else if (strncmp(buff_console_str, "Seq3", 4) == 0) {// 3 сегмент
+        else if (strncmp(buff_console_str, "Seg3", 4) == 0) {// 3 сегмент
            if ( Set_segment(SEGMENT_THREE,buff_console_str) !=0)
             printf("Incorrect command\n");
         }
