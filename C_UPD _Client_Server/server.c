@@ -5,20 +5,6 @@ pthread_mutex_t mutex;
 
 struct Segment Current_segment[3]={0,0,0,0,0,0,0,0,0};
 
-// int create_run_socket(struct sockaddr_in* serv, int port)
-// {
-//     int socket_des;
-//     socket_des = socket(AF_INET, SOCK_DGRAM, 0);//создаем переменную сокета
-//     memset(&*serv, '0', sizeof(*serv));
-    
-//     serv->sin_family = AF_INET;
-//     serv->sin_addr.s_addr = htonl(INADDR_ANY);//в локальную петлю
-//     serv->sin_port = htons(port);//порт
-
-//     bind(socket_des, (struct sockaddr*)&*serv, sizeof(*serv));//создание сокета
-//     return socket_des;
-// }
-
 void* Calculate_sequence(void *args){
     while (1)
     {
