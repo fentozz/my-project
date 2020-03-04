@@ -324,11 +324,12 @@ namespace TaskCompress
 
             int counter = 0;
 
-            while(!MonitorSys.CheckLimit() && counter < maxthread)
+            do
             {
                 threadsReads.Add(new Thread(new ParameterizedThreadStart(ReadFile)) { Name = counter.ToString() });
                 counter++;
             }
+            while (!MonitorSys.CheckLimit() && counter < maxthread);
 
             Console.WriteLine("");
 
