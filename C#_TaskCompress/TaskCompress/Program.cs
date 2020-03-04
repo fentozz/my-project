@@ -10,7 +10,7 @@ using System.IO.Compression;
 
 namespace TaskCompress
 {
-    static class MonitorRAM
+    static class MonitorSys
     {
         /// <summary>
         /// Всего ОЗУ у компуктера (видимой) KiB
@@ -58,8 +58,8 @@ namespace TaskCompress
         /// <summary>
         /// запрос
         /// </summary>
-        private static ObjectQuery query = new ObjectQuery("SELECT TotalVisibleMemorySize,FreePhysicalMemory FROM Win32_OperatingSystem");
-        static MonitorRAM()
+        private static ObjectQuery query;
+        static MonitorSys()
         {
             connection.Impersonation = ImpersonationLevel.Impersonate;//уровень
             scope.Connect();
@@ -69,25 +69,42 @@ namespace TaskCompress
         /// </summary>
         public static void CheckRam() 
         {
+            query = new ObjectQuery("SELECT TotalVisibleMemorySize,FreePhysicalMemory FROM Win32_OperatingSystem");
             using ManagementObjectSearcher searcher = new ManagementObjectSearcher(scope, query);
             foreach (ManagementObject queryObj in searcher.Get())
             {
                 TotalRam = double.Parse(queryObj["TotalVisibleMemorySize"].ToString());
                 FreeRam = double.Parse(queryObj["FreePhysicalMemory"].ToString());
-            }
+            }        
+        }
+        /// <summary>
+        /// Количество ядер в процессоре
+        /// </summary>
+        public static int NumberCores { get; private set; }
+        /// <summary>
+        /// Запрос количества ядер
+        /// </summary>
+        public static void CheckCores()
+        {
+            query = new ObjectQuery("SELECT NumberOfEnabledCore FROM Win32_Processor");
+            using ManagementObjectSearcher searcher = new ManagementObjectSearcher(scope, query);
+            foreach (ManagementObject queryObj in searcher.Get())
+                NumberCores = int.Parse(queryObj["NumberOfEnabledCore"].ToString());
+            
         }
         /// <summary>
         /// Превышен ли лимит 
         /// </summary>
         /// <returns></returns>
         public static bool CheckLimit() => ConvertByte(CurrRam, 1) >= PermRam ? true : false;
+
+
     }
 
     class Program
     {
         static int Main(string[] args)
         {
-
             if (Environment.OSVersion.Platform != PlatformID.Win32NT)
             {
                 Console.WriteLine("Не реализовано в текущей системе");
@@ -287,26 +304,27 @@ namespace TaskCompress
 
             List<Thread> threadsReads = new List<Thread>();
 
-            MonitorRAM.CheckRam();
+            MonitorSys.CheckRam();
+            MonitorSys.CheckCores();
 
             FileInfo info = new FileInfo(inpf);
             int sumblocks = (int)Math.Round((double)info.Length / Sizeblock);
 
-            int maxthread = 100;
+            int maxthread = MonitorSys.NumberCores;
 
-            if (sumblocks <= 1)
-                maxthread = 1;
-            else if (sumblocks > 1 && sumblocks <= 50)
-                maxthread = 5;
-            else if (sumblocks > 50 && sumblocks <= 1000)
-                maxthread = 100;
-            else
-                maxthread = 1000;
+            //if (sumblocks <= 1)
+            //    maxthread = 1;
+            //else if (sumblocks > 1 && sumblocks <= 50)
+            //    maxthread = 5;
+            //else if (sumblocks > 50 && sumblocks <= 1000)
+            //    maxthread = 100;
+            //else
+            //    maxthread = 1000;
             
 
             int counter = 0;
 
-            while(!MonitorRAM.CheckLimit() && counter < maxthread)
+            while(!MonitorSys.CheckLimit() && counter < maxthread)
             {
                 threadsReads.Add(new Thread(new ParameterizedThreadStart(ReadFile)) { Name = counter.ToString() });
                 counter++;
@@ -315,10 +333,10 @@ namespace TaskCompress
             Console.WriteLine("");
 
             ThreadCount = threadsReads.Count;
-            Console.WriteLine("Создано потоков " + ThreadCount.ToString());
+            Console.WriteLine("Создано потоков " + (ThreadCount + 1).ToString());
 
-            Thread myThread2 = new Thread(new ParameterizedThreadStart(WriteFile));
-            myThread2.Start((outf, mode));
+            Thread threadWrite = new Thread(new ParameterizedThreadStart(WriteFile));
+            threadWrite.Start((outf, mode));
 
             threadsReads.ForEach(q => q.Start());            
 
@@ -328,7 +346,7 @@ namespace TaskCompress
 
             Complete = true;
 
-            myThread2.Join();
+            threadWrite.Join();
 
             FileReader.Close();
             fileinput.Close();
