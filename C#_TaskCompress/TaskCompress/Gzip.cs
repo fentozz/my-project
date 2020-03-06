@@ -186,8 +186,6 @@ namespace TaskCompress
                     }
 
                 }
-
-                //GC.GetTotalMemory(true);
             }
         }
         /// <summary>
