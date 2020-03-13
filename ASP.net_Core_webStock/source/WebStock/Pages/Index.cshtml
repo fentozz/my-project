@@ -1,0 +1,27 @@
+﻿@page
+@{
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebStock</title>
+    <link href="~/Tabs.css" rel="stylesheet" />
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/16.11.0/umd/react.development.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.11.0/umd/react-dom.development.js"></script>
+    <script defer src="~/js/Stock.jsx"></script>
+</head>
+<body >
+    <div style="margin:5%; border:1px dashed black;">
+      
+        <div class="tab">
+            <button id="St" class="tablinks" onclick="selected(this)">Склады</button>
+            <button id="Pr" class="tablinks" onclick="selected(this)">Товары</button>
+            <button id="PrSt" class="tablinks" onclick="selected(this)">Товары на складе</button>
+            <button id="Op" class="tablinks" onclick="selected(this)">Операции</button>
+        </div>
+        <div   id="content" class="tabcontent"></div>
+    </div>    
+</body>
+</html>
